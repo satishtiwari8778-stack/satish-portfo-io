@@ -2,26 +2,120 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Satish — Technical Customer Success Portfolio</title>
+  <title>Satish | Technical Customer Success</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background: #f5f7fa;
-      color: #333;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(to right, #f0f4ff, #ffffff);
+      color: #222;
     }
-    header {
-      background: #2c3e50;
-      color: white;
-      padding: 30px 20px;
+    nav {
+      background: #ffffff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav h1 {
+      margin: 0;
+      color: #4a6cff;
+    }
+    nav a {
+      text-decoration: none;
+      color: #555;
+      margin-left: 15px;
+      font-weight: 500;
+    }
+    .hero {
       text-align: center;
+      padding: 80px 20px;
     }
-    section {
-      padding: 40px 20px;
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      color: #555;
+    }
+    .container {
       max-width: 900px;
       margin: auto;
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
     }
     .card {
       background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #4a6cff;
+    }
+    footer {
+      text-align: center;
       padding: 20px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <h1>Satish</h1>
+  <div>
+    <a href="#about">About</a>
+    <a href="#project">Project</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h2>Hello, I'm Satish 👋</h2>
+  <p>Technical Customer Success Associate | Helping users succeed with technology</p>
+</section>
+
+<section class="container">
+  <div class="card" id="about">
+    <h3>About Me</h3>
+    <p>I enjoy helping people understand and use technology effectively. I’m passionate about solving problems and delivering a great customer experience.</p>
+  </div>
+
+  <div class="card" id="project">
+    <h3>Demo Project</h3>
+    <p><b>Support Ticket Simulation</b></p>
+    <p>A mock scenario showing how I would analyze, respond, and resolve a technical customer issue.</p>
+  </div>
+
+  <div class="card" id="skills">
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>Shopify Basics</li>
+      <li>UI/UX</li>
+      <li>Customer Support</li>
+    </ul>
+  </div>
+
+  <div class="card" id="contact">
+    <h3>Contact</h3>
+    <p>Email: satish@email.com</p>
+    <p>LinkedIn: linkedin.com/in/satish</p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Satish — Built with GitHub Pages
+</footer>
+
+</body>
+</html>
+
